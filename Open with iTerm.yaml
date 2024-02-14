@@ -1,0 +1,17 @@
+#popclip
+name: iTerm
+icon: iconify:simple-icons:iterm2
+requirements:
+  - path
+actions:
+- applescript: |
+    tell application "iTerm"
+        activate
+        tell current window
+            set newTab to (create tab with default profile)
+            select
+            tell current session of current tab
+                write text "if [ -d {popclip text} ]; then cd {popclip text}; else cd $(dirname {popclip text}); fi && clear;"
+            end tell
+        end tell
+    end tell
