@@ -1,5 +1,5 @@
 #popclip
-name: VSCode
+name: Code-Path
 icon: iconify:mdi:microsoft-visual-studio-code
 requirements:
   - path
