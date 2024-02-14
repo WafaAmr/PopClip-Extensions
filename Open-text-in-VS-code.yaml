@@ -1,0 +1,10 @@
+#popclip
+name: Code-text
+icon: iconify:mdi:microsoft-visual-studio-code
+requirements:
+  - "!path"
+  - text
+actions:
+- title: Open in VS-Code
+  interpreter: /bin/zsh
+  shell script: echo $POPCLIP_TEXT | code -
