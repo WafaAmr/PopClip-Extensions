@@ -1,0 +1,9 @@
+#popclip
+name: iTerm2
+icon: iconify:simple-icons:iterm2
+requirements:
+  - path
+actions:
+- title: Open with iTerm2
+  interpreter: /bin/zsh
+  shell script: if [ -d $POPCLIP_TEXT ]; then open $POPCLIP_TEXT -a iterm; else open $(dirname $POPCLIP_TEXT) -a iterm; fi
