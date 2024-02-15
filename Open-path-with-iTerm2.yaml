@@ -1,6 +1,6 @@
 #popclip
 name: iTerm2
-icon: iconify:simple-icons:iterm2
+icon: iconify:bi:terminal-plus
 requirements:
   - path
 actions:
