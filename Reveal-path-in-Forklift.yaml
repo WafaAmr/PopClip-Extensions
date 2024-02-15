@@ -4,6 +4,6 @@ icon: iconify:material-symbols:forklift
 requirements:
   - path
 actions:
-- title: Open with Forklift
+- title: Reveal in Forklift
   interpreter: /bin/zsh
   shell script: open $POPCLIP_TEXT -a forklift
