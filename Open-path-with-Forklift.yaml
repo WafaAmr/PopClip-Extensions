@@ -1,0 +1,9 @@
+#popclip
+name: Forklift-Path
+icon: iconify:material-symbols:forklift
+requirements:
+  - path
+actions:
+- title: Open with Forklift
+  interpreter: /bin/zsh
+  shell script: open $POPCLIP_TEXT -a forklift
