@@ -1,4 +1,7 @@
-# PopClip-Extensions
+# [PopClip] Extensions
+
+## Installation
+Make sure you've installed [PopClip].
 
 ## Extensions
 To install, select all text in a YAML file then click install extension
@@ -13,5 +16,11 @@ To install, select all text in a YAML file then click install extension
 ## Tests
 * Path: `~/Desktop/` `~/Desktop/.DS_Store`
 * Text: `Hello World!`
-> [!IMPORTANT]
-> **Developer documentation See <https://www.popclip.app/dev/> for the latest docs.**
+
+----
+
+*Official PopClip Extensions*: [*here*](http://pilotmoon.com/popclip/extensions)
+
+*Developer documentation*: [*here*](https://www.popclip.app/dev/)
+
+[PopClip]: http://pilotmoon.com/popclip/ 'An awesome MacOS app'
